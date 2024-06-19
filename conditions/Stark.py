@@ -27,3 +27,15 @@ elif user1=="Rock" and user2=="Scissor":
 else:
     print("Invalid")
 
+
+marks=int(input("Enter the marks:"))
+name=input("Enter the name:")
+if marks==600:
+    print(name,"has got distinction with",marks,marks/600*100,"%")
+elif marks>=520:
+    print(name,"has got distinction with",marks,marks/600*100,"%")
+elif marks>=420 and marks<=520:
+    print(name,"has got first class with",marks,marks/600*100,"%")
+elif marks>=320 and marks<=420:
+    print(name,"has got second class with",marks,marks/600*100,"%")
+else:print("Fail")
