@@ -39,10 +39,3 @@ elif marks>=420 and marks<=520:
 elif marks>=320 and marks<=420:
     print(name,"has got second class with",marks,marks/600*100,"%")
 else:print("Fail")
-
-number=1
-number1=int(input("Enter the number:"))
-while number<=10:
-    multiply=(f"{number1}*{number}={number1*number}")
-    print(multiply)
-    number+=1
